@@ -4,8 +4,22 @@ channels:
   - conda-forge
 dependencies:
   - python=3.6
-  - oggm-deps
+  - six
+  - numpy
+  - scipy
+  - pyproj
+  - joblib
+  - netCDF4
+  - shapely
+  - geopandas
   - conda-forge/label/dev::rasterio
+  - pandas
+  - xarray
+  - dask
+  - matplotlib
+  - Pillow
+  - descartes=1.1.0
+  - cartopy
   - numpydoc
   - ipython
   - sphinx
